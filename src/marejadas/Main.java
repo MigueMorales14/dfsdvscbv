@@ -29,6 +29,9 @@ public class Main {
             for(Dato d : datos){
                 d.mostrar();
             }
+            
+            AnalizadorMarejadas Analizador = new AnalizadorMarejadas(datos);
+            Analizador.olaMasAlta();
         }
         catch(Exception e){
             e.printStackTrace();
